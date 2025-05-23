@@ -1,0 +1,10 @@
+{
+  "name": "tsgo-example",
+  "private": true,
+  "scripts": {
+    "build": "tsgo"
+  },
+  "devDependencies": {
+    "@typescript/native-preview": "^7.0.0-dev.20250523.1"
+  }
+}
