@@ -2,7 +2,9 @@
   "name": "tsgo-example",
   "private": true,
   "scripts": {
-    "build": "tsgo"
+    "build": "tsgo",
+    "start": "node ./dist/main.js",
+    "prestart": "npm run build"
   },
   "devDependencies": {
     "@typescript/native-preview": "^7.0.0-dev.20250523.1"
